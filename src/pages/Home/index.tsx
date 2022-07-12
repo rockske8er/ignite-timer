@@ -23,7 +23,12 @@ export function Home() {
           </datalist>
 
           <label htmlFor="task">Vou trabalhar em</label>
-          <TaskInput type="text" id="task" list="task-suggestions" />
+          <TaskInput
+            type="text"
+            id="task"
+            list="task-suggestions"
+            placeholder={'Dê um nome para seu projeto'}
+          />
 
           <label htmlFor="minutesAmount">durante</label>
           <MinutesInput
